@@ -1,0 +1,46 @@
+.userTitle{
+  padding-top: 10px;
+}
+
+.userList {
+  list-style: none;
+
+  .userItem {
+    margin: 15px 0;
+
+    a {
+      text-decoration: none;
+    }
+
+    .card {
+      display: flex;
+      box-shadow: 0 0 10px -3px rgba(255, 165, 0, 0.69);
+
+      .cardContent {
+        display: inline-flex;
+        flex: 1 1 100%;
+
+        .userImage {
+          flex: 1;
+        }
+
+        .userInfo {
+          flex: 9;
+
+          .userName {
+            font-size: 20px;
+            font-weight: 500;
+            padding: 0 15px;
+            color: #000;
+          }
+
+          .userCompanyName {
+            font-size: 18px;
+            padding: 10px 15px;
+            color: #555;
+          }
+        }
+      }
+    }
+  }
+}

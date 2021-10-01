@@ -1,0 +1,19 @@
+.wrapper {
+  height: 89.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  a {
+    text-decoration: none;
+  }
+
+  .mainButton {
+    width: 250px;
+    height: 70px;
+  }
+}

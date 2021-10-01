@@ -1,0 +1,28 @@
+.user {
+  display: flex;
+  margin-top: 30px;
+
+  .pagePhoto {
+    flex: 1 1 235px;
+    max-width: 235px;
+    padding: 10px;
+  }
+
+  .pageInfo {
+    flex: 1;
+    margin-left: 20px;
+    height: 100%;
+    padding-bottom: 30px;
+
+    .userName {
+      font-weight: 500;
+      padding: 15px;
+      color: #000;
+      border-bottom: 1px solid #eee;
+    }
+
+    .userData{
+      padding: 5px 15px;
+    }
+  }
+}

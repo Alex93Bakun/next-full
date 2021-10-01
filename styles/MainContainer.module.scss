@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #ffa50069;
+  padding: 15px;
+
+  .navbarInner {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+
+    .navbarMenu {
+      font-weight: 700;
+    }
+  }
+}
